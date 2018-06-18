@@ -34,4 +34,7 @@ return [
         'name'        => env('NAME_COLUMN', 'name'),
         'attach_role' => env('ATTACH_ROLE', null),
     ],
+
+    'accessTokenExpireIn' => env('ACCESS_TOKEN_EXPIRE'),
+    'refreshTokenExpireIn' => env('REFRESH_TOKEN_EXPIRE'),
 ];
